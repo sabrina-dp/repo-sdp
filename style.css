@@ -1,0 +1,169 @@
+{
+    font-family: 'Poppins'; /* coloquei como universal
+    a fonte da ecomp! */
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.corecompb {
+    background: white;
+    color: black;
+}
+
+.corecompv { /* criei uma classe pra poder por a cor
+    de fundo sempre verde */
+    background: #00a38f;
+    color: white;
+}
+
+#abainicial { /* id dos conteúdos da abinha inicial */
+    height: 10vh;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: x-large;
+    align-items: right;
+    padding-left: 70px;
+    position: relative; top: 10px;
+
+
+}
+
+#paginicial{ /*   */
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: flex-start;
+    gap: 20px;
+    font-size: x-large;
+    align-items: right;
+    padding: 70px;
+    position: relative; top: 60px ;
+
+}
+
+
+.titulo {
+    
+    height: 100vh;
+    color: rgba(30, 135, 147, 1);
+    padding: 70px;
+    position: relative; top: 60px; 
+    font-size: larger;
+    
+}
+
+#imagemqs {
+
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#quemsomos {
+    height: 100vh;
+    margin-left: 100px;
+    font-size:medium;
+    flex-direction: flex-start;
+}
+#nossosvalores {
+    margin-left: 100px;
+}
+
+#oquesomos {
+    margin-left: 100px;
+}
+
+#serviços {
+    margin-left: 100px;
+}
+
+#CeP {
+    margin-left: 100px;
+}
+
+#Contato {
+    margin-left: 100px;
+}
+
+
+
+ul{
+    list-style-type: none;
+    position: sticky;
+
+}
+li {
+    float: right;
+}
+li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    color: white;
+    padding: 30px 20px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Poppins'
+}
+.rodape {
+    background: #00a896;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 40px 100px;
+    flex-wrap: wrap;
+    text-align: left;
+    
+  }
+  
+  .coluna {
+    flex: 1;
+    min-width: 200px;
+    max-width: 400px;
+    margin: 10px;
+    margin-right: 150px;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .coluna p {
+    margin-bottom: 16px;
+  }
+  
+  .coluna a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 150px;
+  }
+  
+  .coluna a img {
+    width: 45px;
+    height: auto;
+    margin-right: 5px;
+  }
+  
+  .logo-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    text-align: center;
+  }
+  
+  .logo {
+    width: 80px;
+
+
+}
